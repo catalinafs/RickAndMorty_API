@@ -1,0 +1,9 @@
+.ContainerLoadingPage {
+    width: 100vmin;
+    height: 90vmin;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

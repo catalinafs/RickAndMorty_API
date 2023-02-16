@@ -1,0 +1,20 @@
+.ContainerPagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ContainerPagination button {
+    padding: 3px 8px;
+    background-color: #4e5052;
+}
+
+.ContainerPagination button:disabled {
+    background-color: #4e505299;
+}
+
+.ContainerPagination h4 span {
+    padding: 3px 9px;
+    color: #ffffff;
+    background-color: #3e4042;
+}
