@@ -1,7 +1,7 @@
-import React from 'react'
-import './NavigationBar.css'
-import { NavLink, Link } from 'react-router-dom'
-import Buscar from '../Buscar/Buscar.jsx';
+import React from 'react';
+import { Link, NavLink } from 'react-router-dom';
+import { SearchBar } from '../SearchBar/SearchBar';
+import './NavigationBar.css';
 
 const NavigationBar = () => {
   return (
@@ -13,14 +13,16 @@ const NavigationBar = () => {
           alt='RickAndMortyImage'
         />
       </Link>
-      <Buscar />
+
+      <SearchBar />
+
       <div className='ButtonsContainer'>
         <NavLink to='/' className='button'>Home</NavLink>
-        <NavLink to='/Coders' className='button'>Coder</NavLink>
-        <NavLink to='/Document' className='button'>Doc</NavLink>
+        <NavLink to='/Coders' className='button'>Coders</NavLink>
+        <NavLink to='/Document' className='button'>Docs</NavLink>
       </div>
     </div>
-  )
+  );
 }
 
-export default NavigationBar
+export default NavigationBar;

@@ -1,11 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 const Coders = () => {
-    return (
-        <>
-            <span>Coder</span>
-        </>
-    )
+    return (<>
+        <span>Coder</span>
+    </>);
 }
 
-export default Coders
+export default Coders;

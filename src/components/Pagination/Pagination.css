@@ -1,20 +1,28 @@
+:root {
+    --ConPSpanC: #ffffff;
+    --ContPButtonBG: #4e5052;
+    --ContPButtonDisableBG: #4e505299;
+    --ContPSpanBG: #3e4042;
+}
+
 .ContainerPagination {
-    display: flex;
     align-items: center;
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px;
 }
 
 .ContainerPagination button {
+    background-color: var(--ContPButtonBG);
     padding: 3px 8px;
-    background-color: #4e5052;
 }
 
 .ContainerPagination button:disabled {
-    background-color: #4e505299;
+    background-color: var(--ContPButtonDisableBG);
 }
 
 .ContainerPagination h4 span {
+    background-color: var(--ContPSpanBG);
+    color: var(--ConPSpanC);
     padding: 3px 9px;
-    color: #ffffff;
-    background-color: #3e4042;
 }

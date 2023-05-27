@@ -4,8 +4,8 @@ import './LoadingPage.css';
 
 export const LoadingPage = () => {
     return (
-        <div className="ContainerLoadingPage">
+        <div className='ContainerLoadingPage'>
             <Loader />
         </div>
-    )
+    );
 }

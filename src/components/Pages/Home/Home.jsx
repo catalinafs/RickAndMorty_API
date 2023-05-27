@@ -1,12 +1,10 @@
-import React from 'react'
-import { Card } from '../../Card/Card'
+import React from 'react';
+import { Card } from '../../Card/Card.jsx';
 
 const Home = () => {
-    return (
-        <>
-            <Card />
-        </>
-    )
+    return (<>
+        <Card />
+    </>);
 }
 
-export default Home
+export default Home;

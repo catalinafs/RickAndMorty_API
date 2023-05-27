@@ -1,17 +1,10 @@
-import './GlobalyStyles.css';
 import Rutas from './components/Header/Header.jsx';
-
-
-
+import './GlobalyStyles.css';
 
 function App() {
-  return (
-    <div className="App">
-      <Rutas />
-    </div>
-  );
-
-  
+  return (<>
+    <Rutas />
+  </>);
 }
 
 export default App;

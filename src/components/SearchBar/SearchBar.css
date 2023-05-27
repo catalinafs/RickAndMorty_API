@@ -1,0 +1,13 @@
+.search {
+    background-color: #000000;
+    padding: 15px;
+    border-radius: 24px;
+}
+
+.search>input {
+    border: none;
+    background: none;
+    font-size: large;
+    outline: none;
+    color: #ffffff;
+}

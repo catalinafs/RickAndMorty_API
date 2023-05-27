@@ -1,0 +1,28 @@
+:root {
+    --Alive: #24ff00;
+    --Dead: #ff0000;
+    --Unknown: #6e6e6e;
+}
+
+.AliveDeadUnknown {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circleStatus {
+    font-size: x-large;
+}
+
+.Alive {
+    color: var(--Alive);
+}
+
+.Dead {
+    color: var(--Dead);
+}
+
+.Unknown {
+    color: var(--Unknown);
+}
