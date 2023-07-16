@@ -6,15 +6,15 @@
 }
 
 .ContainerPagination {
-    align-items: center;
+    margin: 55px 0px;
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
-    margin: 20px 0px;
 }
 
 .ContainerPagination button {
-    background-color: var(--ContPButtonBG);
     padding: 3px 8px;
+    background-color: var(--ContPButtonBG);
 }
 
 .ContainerPagination button:disabled {
@@ -22,7 +22,7 @@
 }
 
 .ContainerPagination h4 span {
-    background-color: var(--ContPSpanBG);
-    color: var(--ConPSpanC);
     padding: 3px 9px;
+    color: var(--ConPSpanC);
+    background-color: var(--ContPSpanBG);
 }

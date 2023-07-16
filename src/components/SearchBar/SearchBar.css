@@ -1,13 +1,16 @@
 .search {
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #000000;
-    padding: 15px;
     border-radius: 24px;
 }
 
 .search>input {
     border: none;
     background: none;
-    font-size: large;
     outline: none;
     color: #ffffff;
+    font-size: large;
 }

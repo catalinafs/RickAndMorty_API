@@ -6,7 +6,7 @@ export const ErrorPage = () => {
     <div className='MainContainerError'>
       <div className="Card">
         <h2>
-          🤖ERROR 404 | Something might occurred with the page | Your character doesn't appear to exist 👩‍💻
+          🤖ERROR 404 | Something might occurred with the page | Your character seems to be not existen 👩‍💻
         </h2>
       </div>
     </div>

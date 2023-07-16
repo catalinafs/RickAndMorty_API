@@ -8,30 +8,30 @@
 }
 
 .card {
-    align-items: center;
-    background-color: var(--CardsBackgroundColor);
-    border-radius: 5px;
-    border: 4px solid var(--CardsBorderColor);
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    text-align: center;
     text-decoration: none;
     padding: 15px 0px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    background-color: var(--CardsBackgroundColor);
+    border-radius: 9px;
+    border: 4px solid var(--CardsBorderColor);
 }
 
 .CardDetails {
-    align-content: center;
-    align-items: center;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .characterImage {
+    width: 80%;
     border-radius: 70%;
     border: 4px solid var(--ColorWhite);
-    width: 80%;
 }
 
 .info {
@@ -40,8 +40,8 @@
 
 .fatherCards {
     display: grid;
-    gap: 50px;
     grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
 }
 
 .Name {

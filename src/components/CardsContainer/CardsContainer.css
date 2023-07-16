@@ -1,7 +1,7 @@
 .Cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
     margin: 40px 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    justify-items: center;
     gap: 18px;
 }
